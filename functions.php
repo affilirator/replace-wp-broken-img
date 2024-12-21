@@ -49,7 +49,7 @@ function replace_broken_images_page()
 function replace_broken_images_bulk()
 {
     // Default image URL
-    $default_image_url = 'https://no-waste.org/wp-content/uploads/2020/01/portablegasgrill.jpg';
+    $default_image_url = '/wp-content/uploads/default-image.jpg';
 
     // Get all posts
     $args = [
